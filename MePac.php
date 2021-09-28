@@ -22,7 +22,6 @@ session_start();
 <?php
 include"menu2.php";
 ?>
-
 <div class="content">
  <br><br>
   <div class="wrapper"> 
