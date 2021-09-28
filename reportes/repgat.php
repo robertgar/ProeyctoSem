@@ -1,8 +1,8 @@
 <?php
 //Incluimos el fichero de conexion
-include_once($_SERVER['DOCUMENT_ROOT'] .'/Proyectop/procesos/conexion.php');
+include_once($_SERVER['DOCUMENT_ROOT'] .'/procesos/conexion.php');
 //Incluimos la libreria PDF
-include_once($_SERVER['DOCUMENT_ROOT'] .'/Proyectop/libs/fpdf.php');
+include_once($_SERVER['DOCUMENT_ROOT'] .'/libs/fpdf.php');
  $v1=$_GET['id'];
 class PDF extends FPDF
 {
@@ -10,7 +10,7 @@ class PDF extends FPDF
 function Header()
 {
     // Logo
-$this->Image($_SERVER['DOCUMENT_ROOT'] .'/Proyectop/imgenes/asilo.jpg',10,5,25,25);
+$this->Image($_SERVER['DOCUMENT_ROOT'] .'/imgenes/asilo.jpg',10,5,25,25);
 
     $this->SetFont('Arial','B',13);
     // Move to the right
