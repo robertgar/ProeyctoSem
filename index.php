@@ -75,7 +75,7 @@ console.log(json);
                 $(location).attr('href',url);
 
               }else{
-                var url = "Mepac.php";    
+                var url = "mepac.php";    
                 $(location).attr('href',url);
                 }
 
