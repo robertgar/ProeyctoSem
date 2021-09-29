@@ -28,7 +28,7 @@ include"menu.php";
     <div class="panel-heading">Medicamentos por pacientes</div>
     <div class="panel-body">
  
-     <h1>Lista de Examenes Medicos por pacientes</h1>
+     <h1>Medicamentos por pacientes</h1>
            <table class="table table-condensed">
     <thead>
       <tr>
