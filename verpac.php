@@ -195,3 +195,7 @@ $(location).attr('href',url);
 
 });
 </script>
+
+ <?php 
+}
+?>
